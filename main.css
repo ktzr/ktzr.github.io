@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
 body {
     align-content: center;
     text-align: center;
     background: #ECF0F1;
+    font-family: 'Roboto', sans-serif;
 }
 
+a{
+    color: #000000;
+}
 #footer {
     position: absolute;
     bottom: 30px;
@@ -19,9 +26,8 @@ body {
     font-size: 25pt;
 }
 
-
 .sub-header {
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     margin: auto;
     text-align: center;
     font-size: 15pt;
@@ -31,6 +37,11 @@ font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     text-decoration: none;
+}
+
+.home-link{
+        color: #000000;
+        text-decoration: none;
 }
 
 .logo {
