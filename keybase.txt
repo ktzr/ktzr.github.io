@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ktzr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ktzr.uk
+  * I am ktzr (https://keybase.io/ktzr) on keybase.
+  * I have a public key ASBlVGLwMDidAsfrjun7Pt-EMUKo2u-D9YfPfved6eNodAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cf23d31b3707d240d72243573013a3edde87539f4cfc52943c525845f1ae2e3c0a",
+      "host": "keybase.io",
+      "kid": "0120655462f030389d02c7eb8ee9fb3edf843142a8daef83f587cf7ef79de9e368740a",
+      "uid": "80fb6befacb592c50469ff9ae358a019",
+      "username": "ktzr"
+    },
+    "merkle_root": {
+      "ctime": 1517004748,
+      "hash": "4786e8cad2c18b52eb9e5698d7f017994a7f11edae3419b9c07c296c289871b002433aa3a5c6c992f436bc968a2f6df52507a8fd0473d6f3e15c3506411bb6d7",
+      "hash_meta": "f999b950ed89c13ec37d51d9bdad66f7f16f7ddc7ca9597aa2dd689eee15e3b9",
+      "seqno": 1988944
+    },
+    "service": {
+      "hostname": "ktzr.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1517004772,
+  "expire_in": 504576000,
+  "prev": "9d813f680987e12a1bae37a4b17cccb732359d8602b0c57e5c028eae1a5a2d00",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZVRi8DA4nQLH647p+z7fhDFCqNrvg/WHz373nenjaHQKp3BheWxvYWTFAzx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2YyM2QzMWIzNzA3ZDI0MGQ3MjI0MzU3MzAxM2EzZWRkZTg3NTM5ZjRjZmM1Mjk0M2M1MjU4NDVmMWFlMmUzYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjU1NDYyZjAzMDM4OWQwMmM3ZWI4ZWU5ZmIzZWRmODQzMTQyYThkYWVmODNmNTg3Y2Y3ZWY3OWRlOWUzNjg3NDBhIiwidWlkIjoiODBmYjZiZWZhY2I1OTJjNTA0NjlmZjlhZTM1OGEwMTkiLCJ1c2VybmFtZSI6Imt0enIifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTcwMDQ3NDgsImhhc2giOiI0Nzg2ZThjYWQyYzE4YjUyZWI5ZTU2OThkN2YwMTc5OTRhN2YxMWVkYWUzNDE5YjljMDdjMjk2YzI4OTg3MWIwMDI0MzNhYTNhNWM2Yzk5MmY0MzZiYzk2OGEyZjZkZjUyNTA3YThmZDA0NzNkNmYzZTE1YzM1MDY0MTFiYjZkNyIsImhhc2hfbWV0YSI6ImY5OTliOTUwZWQ4OWMxM2VjMzdkNTFkOWJkYWQ2NmY3ZjE2ZjdkZGM3Y2E5NTk3YWEyZGQ2ODllZWUxNWUzYjkiLCJzZXFubyI6MTk4ODk0NH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrdHpyLnVrIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDAifSwiY3RpbWUiOjE1MTcwMDQ3NzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiOWQ4MTNmNjgwOTg3ZTEyYTFiYWUzN2E0YjE3Y2NjYjczMjM1OWQ4NjAyYjBjNTdlNWMwMjhlYWUxYTVhMmQwMCIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDWAkmTBYtJrRvD4NBLxa8wLPFav69ym1CGtYN9qSqua5zJQUHWIE5pThT6r8qNItdy9aLsrIBe6XGpiylIat8GqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg/FkQbwRduJM13x8q8u0++XfXSkv297gHs95x2PfwofKjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ktzr
+
+==================================================================
