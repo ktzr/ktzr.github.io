@@ -50,7 +50,7 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 601px){
     .col-4 {
         width: 50%;
     }
