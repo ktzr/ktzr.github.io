@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!--
+   created with Free Online Sitemap Generator www.xml-sitemaps.com
+  -->
+  <url>
+    <loc>https://ktzr.uk/</loc>
+    <lastmod>2018-01-27T15:21:34+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://ktzr.uk/art.html</loc>
+    <lastmod>2018-01-27T15:21:34+00:00</lastmod>
+    <priority>0.80</priority>
+    <!--Art-->
+    <image:image>
+      <image:loc>https://ktzr.uk/art/1.jpg</image:loc>
+      <image:title>First Attempt, Reflections of Calm</image:title>
+      <image:caption>After attending Arts and Crafts society at Glasgow University I decided to give painting a go.
+        I followed along to Bob Ross painting Reflections of Calm.
+        The only times I had tried up to this point were during primary school, and much later when my
+        friend convinced me to attend Arts and Crafts society. We made Christmas cards.
+      </image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ktzr.uk/art/2.jpg</image:loc>
+      <image:title>Trying Out Oil, Delightful Meadow Home</image:title>
+      <image:caption>As I had so much fun doing my first paintings, I decided to upgrade from the acrylic paints and
+        printer paper I used.
+        So I borrowed some oil paints and paper and followed Bob Ross painting Delightful Meadow Home.
+        I liked how it was without the shed so decided to stop a bit early
+      </image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ktzr.uk/art/3.jpg</image:loc>
+      <image:title>Time To Buy Supplies, Evening's Glow</image:title>
+      <image:caption>As I had so much fun doing my first two painting I decided i would finally bite the bullet and buy
+        some art supplies.
+        That weekend I headed to my local art shop and got myself a set of paintbrushes, some oil paints and
+        paper to match.
+        When I got home, as always, I put on Bob Ross and painted along to Evening's Glow.
+        I got a bit carried away with the hills and just kept going.
+      </image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
+    </image:image>
+
+
+    <!--Photos-->
+    <image:image>
+      <image:loc>https://ktzr.uk/photos/1.jpg</image:loc>
+      <image:title>George, The Bear</image:title>
+      <image:caption>This is George, if you haven't already guessed, he's a Bear.
+      </image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ktzr.uk/photos/2.jpg</image:loc>
+      <image:title>Fuchsia Flowers</image:title>
+      <image:caption>These are some flowers I saw whilst walking through Kelvingrove park.
+        I thought they looked pretty so I took a picture.
+      </image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
+    </image:image>
+
+  </url>
+</urlset>
