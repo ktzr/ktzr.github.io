@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+       <meta charset="UTF-8">
+    <meta name="author" content="Kevin Tozer">
+    <meta name="keywords"
+          content="computer science student full-stack developer software engineering ktzr Kevin Tozer cs se dev">
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="msvalidate.01" content="61BA4997445367DE0594700E97A9229C"/>
+
+    <link rel="shortcut icon" href="/static/favicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono">
+    <link rel="stylesheet" href="/static/css/main.css">
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113158708-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-113158708-1');
+    </script>
+
+   {% if page.title %} <title>{{ page.title }}</title> {% endif%}
+    {% if page.descriptions %} <meta name="descriptions" content="{{ page.descriptions }}"> {% endif%}
+    {% if page.css %} <link rel="stylesheet" href="{{page.css}}"> {% endif%}
+
+
+</head>
+
+ {{ content }}
+
+
+</html>
