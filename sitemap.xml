@@ -15,7 +15,7 @@ permalink: /sitemap.xml
     </url>
     <url>
         <loc>https://ktzr.uk/art.html</loc>
-        <lastmod>2018-01-29</lastmod>
+        <lastmod>{{site.time | date_to_xmlschema }}</lastmod>
         <priority>0.80</priority>
 
         <!--Art-->
