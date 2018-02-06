@@ -21,7 +21,7 @@ permalink: /sitemap.xml
         <!--Art-->
         {% for piece in site.data.art %} {% capture img %}{{ piece[0] }}{% endcapture %}
         <image:image>
-            <image:loc>https://ktzr.uk/art/{{img}}.jpg</image:loc>
+            <image:loc>https://ktzr.uk/static/art/{{img}}.jpg</image:loc>
             <image:title>{{piece[1].title}}</image:title>
             <image:caption>{{piece[1].alt}}</image:caption>
             <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>
@@ -30,7 +30,7 @@ permalink: /sitemap.xml
         <!--Photos-->
         {% for piece in site.data.photo %} {% capture img %}{{ piece[0] }}{% endcapture %}
         <image:image>
-            <image:loc>https://ktzr.uk/photo/{{img}}.jpg</image:loc>
+            <image:loc>https://ktzr.uk/static/photo/{{img}}.jpg</image:loc>
             <image:title>{{piece[1].title}}</image:title>
             <image:caption>{{piece[1].alt}}</image:caption>
             <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</image:license>

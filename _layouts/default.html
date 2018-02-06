@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width"/>
     <meta name="msvalidate.01" content="61BA4997445367DE0594700E97A9229C"/>
 
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono">
     <link rel="stylesheet" href="/static/css/main.css">
 
@@ -36,7 +37,8 @@
         gtag('config', 'UA-113158708-1');
     </script>
 
-   {% if page.title %} <title>{{ page.title }}</title> {% endif%}
+    {% if page.title %} <title>{{ page.title }}</title> {% endif%}
+    {% if page.canonical %} <link rel="canonical" href="https://ktzr.uk{{page.canonical}}" /> {% endif%}
     {% if page.descriptions %} <meta name="descriptions" content="{{ page.descriptions }}"> {% endif%}
     {% if page.css %} <link rel="stylesheet" href="{{page.css}}"> {% endif%}
 
