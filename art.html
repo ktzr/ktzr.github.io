@@ -46,7 +46,7 @@ canonical: /art
     {% if forloop.first %}  <div class="row">{% endif %}
         <div class="col col-4">
             <div class="content">
-                <a href="/static/art/{{img}}.jpg"><img src="/static/art/{{img}}-small.jpg" alt="{{data.alt}}" style="width:100%"> </a>
+                <a href="/static/art/{{img}}.jpg"><img src="/static/art/{{img}}-small.jpg" alt="{{piece[1].alt}}, By Kevin Tozer" style="width:100%"> </a>
                 <h3>{{piece[1].title}}</h3>
                 <p>{{piece[1].description}} </p>
             </div>
@@ -64,7 +64,7 @@ canonical: /art
     {% if forloop.first %}  <div class="row">{% endif %}
         <div class="col col-2">
             <div class="content">
-                <a href="/static/photo/{{img}}.jpg"><img src="/static/photo/{{img}}-small.jpg" alt="{{data.alt}}" style="width:100%"> </a>
+                <a href="/static/photo/{{img}}.jpg"><img src="/static/photo/{{img}}-small.jpg" alt="{{piece[1].alt}}, By Kevin Tozer" style="width:100%"> </a>
                 <h3>{{piece[1].title}}</h3>
                 <p>{{piece[1].description}} </p>
             </div>
