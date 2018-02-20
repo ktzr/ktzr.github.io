@@ -14,7 +14,7 @@ permalink: /sitemap.xml
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://ktzr.uk/art.html</loc>
+        <loc>https://ktzr.uk/art</loc>
         <lastmod>{{site.time | date_to_xmlschema }}</lastmod>
         <priority>0.80</priority>
 
