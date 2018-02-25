@@ -1,5 +1,5 @@
-.highlighter-rouge{padding-left: 1.5em}
-
+/*div.highlight{padding-left: 1.5em}*/
+.language-python.highlighter-rouge {padding: 0.1em 0.25em 0.1em 1em;}
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #ffffff; }
 .highlight .c { color: #888888 } /* Comment */
