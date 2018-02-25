@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     align-content: center;
     text-align: center;
@@ -8,9 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a{
+a {
     color: #000000;
 }
+
 #footer {
     position: absolute;
     bottom: 30px;
@@ -39,10 +41,22 @@ a{
     text-decoration: none;
 }
 
-.home-link{
-        color: #000000;
-        text-decoration: none;
-        font-size: 25pt;
+.home-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 25pt;
+}
+
+.blog-link {
+    color: #130F0E;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
 }
 
 .logo {
@@ -73,23 +87,4 @@ a{
 
 
 
-.posts > .post {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-/*.post > blockquote {*/
-    /*margin: 1.8em .8em;*/
-    /*border-left: 2px solid gray;*/
-    /*padding: 0.1em 1em;*/
-    /*color: gray;*/
-    /*font-size: 22px;*/
-    /*font-style: italic;*/
-  /*}*/
 

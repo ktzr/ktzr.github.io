@@ -10,7 +10,7 @@ permalink: /sitemap.xml
 
     <url>
         <loc>https://ktzr.uk/</loc>
-        <lastmod>2018-01-28</lastmod>
+        <lastmod>2018-02-25</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
@@ -37,4 +37,21 @@ permalink: /sitemap.xml
         </image:image>
         {% endfor %}
     </url>
+
+    <url>
+        <loc>https://ktzr.uk/blog</loc>
+        <lastmod>{{site.time | date_to_xmlschema }}</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+      {% for post in site.posts %}
+
+    <url>
+        <loc>https://ktzr.uk{{ post.url }}</loc>
+        <lastmod>{{post.date | date_to_xmlschema }}</lastmod>
+        <priority>0.50</priority>
+    </url>
+
+  {% endfor %}
+
 </urlset>

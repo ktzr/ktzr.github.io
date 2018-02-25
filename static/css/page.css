@@ -71,3 +71,32 @@
         width: 100%;
     }
 }
+
+.posts > .post {
+    /*padding-top: 2em;*/
+    padding-bottom: 2em;
+    border-bottom: 1px solid lightGray;
+}
+
+.post > .entry {
+    padding-left: 1em;
+}
+
+.posts > .post:last-child {
+    padding-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: none;
+}
+.date {
+  font-style: italic;
+  color: gray;
+}
+
+/*.post > blockquote {*/
+/*margin: 1.8em .8em;*/
+/*border-left: 2px solid gray;*/
+/*padding: 0.1em 1em;*/
+/*color: gray;*/
+/*font-size: 22px;*/
+/*font-style: italic;*/
+/*}*/

@@ -3,13 +3,12 @@ layout: page
 title: Blog
 descriptions: My blog, a collection of thoughts and ideas I've had and deemed worth writing up.
 canonical: /blog
-
 ---
+
 <div class="main">
 
 <a class="home-link" href="/">KTZR.UK</a>
-<hr>
-<h1>My Blog: A place for my thoughts and ideas</h1>
+<hr><h1>My Blog: A place for my thoughts and ideas</h1>
 <!--<h2>Blog</h2>-->
 
 <div class="posts">
@@ -20,9 +19,8 @@ canonical: /blog
 
       <div class="entry soft-black">
         {{ post.excerpt }}
+          <a href="{{ post.url }}" class="read-more">Read More</a>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
