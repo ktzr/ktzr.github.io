@@ -215,9 +215,6 @@ This is basically the same a dictionary `{'number':3,'word':'Fizz'}` but wrapped
 
 ``` python
 def numbers_and_words_are_relation_3(length, triggers):
-    """ 
-       
-    """
     for i in range(1, length + 1):
         output = ""
         for number, word in triggers:
@@ -275,9 +272,6 @@ This also solve the problem of "what if I don't want to print the results"
 
 ``` python
 def we_cant_test_this(length, triggers, operation):
-    """ 
-    See `fizzbuzz_triggers.py` for example tests.
-    """
     output = []
     for i in range(1, length + 1):
         candidate = ""
