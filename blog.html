@@ -1,0 +1,29 @@
+---
+layout: page
+title: Blog
+descriptions: My blog, a collection of thoughts and ideas I've had and deemed worth writing up.
+canonical: /blog
+
+---
+<div class="main">
+
+<a class="home-link" href="/">KTZR.UK</a>
+<hr>
+<h1>My Blog: A place for my thoughts and ideas</h1>
+<!--<h2>Blog</h2>-->
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h2><a href="{{ post.url }}" style="text-decoration: none">{{ post.title }}</a></h2>
+
+      <div class="entry soft-black">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+</div>
