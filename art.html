@@ -1,11 +1,60 @@
 ---
-layout: Page
-title: Art
+layout: page
+title: Art &amp Photography
 descriptions: A Collection of art and photography I have created whilst trying to practice creative skills.
 canonical: /art
 ---
 
 <div class="main">
+
+<a class="home-link" href="/">KTZR.UK</a>
+<hr>
+<h1>Practicing Creativity: Art &amp Photography</h1>
+<h2>ART</h2>
+<p>I have been trying to practice creative skills, and decided to give art a go.<br/>
+    This is a collection of all my art, drawings, and attempts at painting along with Bob Ross.</p>
+    {% for piece in site.data.art %} {% capture mod %}{{ forloop.index | modulo:4 }}{% endcapture %}{% capture img %}{{ piece[0] }}{% endcapture %}
+    {% if forloop.first %}  <div class="row">{% endif %}
+        <div class="col col-4">
+            <div class="content">
+                <a href="/static/art/{{img}}.jpg"><img src="/static/art/{{img}}-small.jpg" alt="{{data.alt}} By Kevin Tozer" style="width:100%"> </a>
+                <h3>{{piece[1].title}}</h3>
+                <p>{{piece[1].description}} </p>
+            </div>
+        </div>
+    {% if forloop.last %}</div>{% elsif mod == '0' %}</div><div class="row">{% endif %}
+    {% endfor %}
+
+<hr>
+<h2>Photography</h2>
+<p>Pictures are nice, I like taking them.<br/>
+    Most of my photos are of inanimate objects; they don't get annoyed after 100 pictures trying to get "just the right one". <br/>
+    This is a collection of some of the favourite photos I've taken so far.</p>
+<!-- Portfolio Gallery Grid -->
+    {% for piece in site.data.photo %} {% capture mod %}{{ forloop.index | modulo:2 }}{% endcapture %}{% capture img %}{{ piece[0] }}{% endcapture %}
+    {% if forloop.first %}  <div class="row">{% endif %}
+        <div class="col col-2">
+            <div class="content">
+                <a href="/static/photo/{{img}}.jpg"><img src="/static/photo/{{img}}-small.jpg" alt="{{data.alt}} By Kevin Tozer" style="width:100%"> </a>
+                <h3>{{piece[1].title}}</h3>
+                <p>{{piece[1].description}} </p>
+            </div>
+        </div>
+    {% if forloop.last %}</div>{% elsif mod == '0' %}</div><div class="row">{% endif %}
+    {% endfor %}
+
+
+</div>
+
+<footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/>
+    </a>
+    This work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+    </a>.
+</footer>
 
 <script type="application/ld+json">
 {
@@ -33,52 +82,3 @@ canonical: /art
   ]
 }
 </script>
-
-<a class="home-link" href="/">KTZR.UK</a>
-<hr>
-<h1>Practicing Creativity: Art & Photography</h1>
-<h2>ART</h2>
-<p>I have been trying to practice creative skills, and decided to give art a go.<br/>
-    This is a collection of all my art, drawings, and attempts at painting along with Bob Ross.</p>
-    {% for piece in site.data.art %} {% capture mod %}{{ forloop.index | modulo:4 }}{% endcapture %}{% capture img %}{{ piece[0] }}{% endcapture %}
-    {% if forloop.first %}  <div class="row">{% endif %}
-        <div class="col col-4">
-            <div class="content">
-                <a href="/static/art/{{img}}.jpg"><img src="/static/art/{{img}}-small.jpg" alt="{{data.alt}}" style="width:100%"> </a>
-                <h3>{{piece[1].title}}</h3>
-                <p>{{piece[1].description}} </p>
-            </div>
-        </div>
-    {% if forloop.last %}</div>{% elsif mod == '0' %}</div><div class="row">{% endif %}
-    {% endfor %}
-
-<hr>
-<h2>Photography</h2>
-<p>Pictures are nice, I like taking them.<br/>
-    Most of my photos are of inanimate objects; they don't get annoyed after 100 pictures trying to get "just the right one". <br/>
-    This is a collection of some of the favourite photos I've taken so far.</p>
-<!-- Portfolio Gallery Grid -->
-    {% for piece in site.data.photo %} {% capture mod %}{{ forloop.index | modulo:2 }}{% endcapture %}{% capture img %}{{ piece[0] }}{% endcapture %}
-    {% if forloop.first %}  <div class="row">{% endif %}
-        <div class="col col-2">
-            <div class="content">
-                <a href="/static/photo/{{img}}.jpg"><img src="/static/photo/{{img}}-small.jpg" alt="{{data.alt}}" style="width:100%"> </a>
-                <h3>{{piece[1].title}}</h3>
-                <p>{{piece[1].description}} </p>
-            </div>
-        </div>
-    {% if forloop.last %}</div>{% elsif mod == '0' %}</div><div class="row">{% endif %}
-    {% endfor %}
-
-
-</div>
-
-<footer>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/>
-    </a>
-    This work is licensed under a
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-        Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
-    </a>.
-</footer>

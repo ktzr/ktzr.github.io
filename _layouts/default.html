@@ -39,7 +39,9 @@
 
     {% if page.title %} <title>{{ page.title }}</title> {% endif%}
     {% if page.canonical %} <link rel="canonical" href="https://ktzr.uk{{page.canonical}}" /> {% endif%}
+    {% if layout.canonical %} <link rel="canonical" href="https://ktzr.uk{{layout.canonical}}" /> {% endif%}
     {% if page.descriptions %} <meta name="description" content="{{ page.descriptions }}"> {% endif%}
+    {% if layout.css %} <link rel="stylesheet" href="{{layout.css}}"> {% endif%}
     {% if page.css %} <link rel="stylesheet" href="{{page.css}}"> {% endif%}
 
 
