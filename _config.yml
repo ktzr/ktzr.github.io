@@ -26,6 +26,8 @@ url: "https://ktzr.uk" # the base hostname & protocol for your site, e.g. http:/
 
 highlighter: rouge
 
+permalink: /blog/:year/:title
+
 
 # Build settings
 #markdown: kramdown

@@ -182,9 +182,9 @@ def numbers_and_words_are_relation_1(length, triggers):
 Calling `numbers_and_words_are_relation_1(100, {3:'Fizz',5:'Buzz'})` would have the same effect as above.
 
 ## I like tuples!
-Ehh they are ok, but they arn't dicts.
+Ehh they are ok, but they aren't dicts.
 
-This is basally the same as the last example but we use a list of tuples, instead of dicts.
+This is basically the same as the last example but we use a list of tuples, instead of dicts.
 
 ``` python
 def numbers_and_words_are_relation_2(length, triggers):
