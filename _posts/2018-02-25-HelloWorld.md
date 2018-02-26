@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World- Lets start with the basics!
-descriptions: My first Blog post, Where i delve into everyone favourite first programing challenge, FizzBuzz.
+descriptions: My first Blog post, Where I delve into everyone favourite first programing challenge, FizzBuzz.
 css: /static/css/syntax.css
 ---
 

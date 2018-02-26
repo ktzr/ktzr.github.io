@@ -6,10 +6,14 @@ css: /static/css/page.css
 
 <div class="main">
     <a class="home-link" href="/">KTZR.UK</a>
-    <hr>
-    <h1>{{ page.title }}</h1>
+    <a class="home-link" href="/blog">/BLOG</a>
+    <hr><h1>{{ page.title }}</h1>
     <!--<a class="blog-link" href="/blog">The Blog</a>-->
+    <div class="posts">
+
     <article class="post">
+
+        <h2>{{page.descriptions}}</h2>
 
         <div class="entry">
             {{ content }}
@@ -23,5 +27,6 @@ css: /static/css/page.css
         <p><a class="link soft-black" href="/blog">Back to the blog</a></p>
 
     </article>
+    </div>
 </div>
 </body>

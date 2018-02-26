@@ -3,7 +3,9 @@
     align-content: left;
     text-align: left;
 }
-
+html {
+    overflow-y: scroll;
+}
 .main {
     max-width: 1000px;
     margin: auto;
