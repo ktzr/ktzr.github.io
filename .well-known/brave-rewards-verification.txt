@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ktzr.uk
+Token: 5b8cb58b965527890723cd4ca01fcf56a8a491a051dea3845fc5587558a15250
